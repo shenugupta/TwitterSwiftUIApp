@@ -36,7 +36,7 @@ struct TweetInfo: View {
                     }
                     Spacer()
                 }
-                .frame(width: 300, height: 300)
+                .frame(width: 200, height: 200)
             default:
                 Text(tweetResponse.message).font(.custom("Helvetica Neue", size: 22))
             }
@@ -57,7 +57,7 @@ struct TweetInfo: View {
 struct TweetInfo_Previews: PreviewProvider {
     static var previews: some View {
         
-        TweetInfo(tweetResponse: TweetListMockResponse(id: 1, message: "test", source: "123", name: "344", date: "12/11/2022", account: "3344", messageType: "test"))
+        TweetInfo(tweetResponse: TweetListMockResponse(id: 1, message: "test", source: "123", name: "344", date: "12/11/2022", account: "3344", messageType: "test", tweetActivity:TweetActivity(retweetCount: 1, likes: 1, comment: 1) ))
         
     }
 }

@@ -10,4 +10,10 @@ import Foundation
 struct TweetListMockResponse: Decodable {
     let id: Int
     let message, source, name, date, account: String,messageType: String
+    let tweetActivity: TweetActivity
 }
+
+struct TweetActivity : Decodable {
+    let retweetCount, likes, comment: Int
+}
+

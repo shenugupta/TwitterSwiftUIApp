@@ -26,6 +26,8 @@
 		4769FA4D295AEA6A00AB1F02 /* TweetInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4769FA4C295AEA6A00AB1F02 /* TweetInfoView.swift */; };
 		4769FA4F295AEB4A00AB1F02 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4769FA4E295AEB4A00AB1F02 /* DataModels.swift */; };
 		4769FA51295AEBAF00AB1F02 /* mockTwitter.json in Resources */ = {isa = PBXBuildFile; fileRef = 4769FA50295AEBAF00AB1F02 /* mockTwitter.json */; };
+		4769FA53295B0CC500AB1F02 /* TweetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4769FA52295B0CC500AB1F02 /* TweetDetailView.swift */; };
+		4769FA55295B0D0900AB1F02 /* TweetDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4769FA54295B0D0900AB1F02 /* TweetDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		4769FA4C295AEA6A00AB1F02 /* TweetInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetInfoView.swift; sourceTree = "<group>"; };
 		4769FA4E295AEB4A00AB1F02 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
 		4769FA50295AEBAF00AB1F02 /* mockTwitter.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mockTwitter.json; sourceTree = "<group>"; };
+		4769FA52295B0CC500AB1F02 /* TweetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetDetailView.swift; sourceTree = "<group>"; };
+		4769FA54295B0D0900AB1F02 /* TweetDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +170,8 @@
 				4769FA48295AEA3400AB1F02 /* TweetCellBottomView.swift */,
 				4769FA4A295AEA4C00AB1F02 /* ProfilePictureImageView.swift */,
 				4769FA4C295AEA6A00AB1F02 /* TweetInfoView.swift */,
+				4769FA52295B0CC500AB1F02 /* TweetDetailView.swift */,
+				4769FA54295B0D0900AB1F02 /* TweetDetails.swift */,
 			);
 			path = ListView;
 			sourceTree = "<group>";
@@ -319,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4769FA4B295AEA4C00AB1F02 /* ProfilePictureImageView.swift in Sources */,
+				4769FA53295B0CC500AB1F02 /* TweetDetailView.swift in Sources */,
 				4769FA3E295AE97A00AB1F02 /* TweetCellView.swift in Sources */,
 				4769FA49295AEA3400AB1F02 /* TweetCellBottomView.swift in Sources */,
 				4769FA13295AE91400AB1F02 /* Persistence.swift in Sources */,
@@ -329,6 +336,7 @@
 				4769FA43295AE9B700AB1F02 /* BundleJSONDecoder.swift in Sources */,
 				4769FA0C295AE91200AB1F02 /* ContentView.swift in Sources */,
 				4769FA40295AE98E00AB1F02 /* TweetCellImageView.swift in Sources */,
+				4769FA55295B0D0900AB1F02 /* TweetDetails.swift in Sources */,
 				4769FA4D295AEA6A00AB1F02 /* TweetInfoView.swift in Sources */,
 				4769FA0A295AE91200AB1F02 /* TwitterSwiftUIAppApp.swift in Sources */,
 			);
