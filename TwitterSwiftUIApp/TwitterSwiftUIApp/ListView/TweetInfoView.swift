@@ -24,7 +24,7 @@ struct TweetInfo: View {
             
             switch tweetResponse.messageType {
             case "image":
-                Image("profile-icon")
+                Image("image1")
                     .resizable()
                     .frame(width: 200, height: 200)
                 // executable code
